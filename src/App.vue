@@ -11,18 +11,17 @@
 
 <script>
 export default {
-  data(){
+  data() {
     return {
-      theme:'light'
-    }
+      theme: "light",
+    };
   },
   created() {
-    this.switchTheme()
+    // this.switchTheme();
   },
   methods: {
     switchTheme() {
-      this.theme = this.theme === "light" ? "dark" : "light"
-      document.documentElement.setAttribute("data-theme", this.theme);
+      window._theme = window._theme === "light" ? "dark" : "light";
     },
   },
 };
