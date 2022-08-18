@@ -16,7 +16,6 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "element-theme-chalk": "github:ElementUI/theme-chalk",
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
     "node-sass": "^7.0.1",
